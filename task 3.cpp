@@ -1,5 +1,5 @@
-// Description:- Advanced Sudoku Solver in C++
-
+/* Description:- Advanced Sudoku Solver in C++
+This program solves a given Sudoku puzzle using backtracking and bitmask optimization for fast checks.*/
 #include <iostream>
 #include <vector> // Header for the vector container – it's way more flexible than raw arrays for storing the 2D grid, and it handles memory automatically
 #include <bitset> // Header for bitset – we use this for super-fast checks on whether numbers are already used in rows, columns, and subgrids (like a compact array of booleans)
@@ -215,3 +215,4 @@ int main() {
     
     return 0;
 }
+//End of the code
